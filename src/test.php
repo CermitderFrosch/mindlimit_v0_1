@@ -1,7 +1,7 @@
 <?php
 
-echo "Hallo Welt";
+echo "Ciao Amore, wollen wir noch eine Folge schauen und uns einkuscheln? <3";
 
-//Hallo Luisa, das hast Du toll gemacht!
+//Kuscheleinladung
 
 ?>
