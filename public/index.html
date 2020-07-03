@@ -15,4 +15,15 @@
 
         </div>
     </body>
+
+    <!-- Additional files go here -->
+    <script type="text/javascript" src="../src/js/index_controller.js"></script>
+
+     <!-- Invoke Controller-->
+     <script>
+        window.onload = function(){
+            const IndexCont = new IndexController(true);
+            IndexCont.loadContent();
+        }
+    </script>
 </html>
