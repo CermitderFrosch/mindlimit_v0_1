@@ -1,3 +1,5 @@
 <?php
-    echo "<h1>Backend Test</h1>";
+    $ret = array('type' => 'html', 'tag' => 'h1', 'content' => 'This is a test');
+
+    echo json_encode($ret);
 ?>

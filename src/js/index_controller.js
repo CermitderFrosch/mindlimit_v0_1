@@ -11,10 +11,10 @@ class IndexController {
 
         var xhr = new XMLHttpRequest();
         xhr.onload = function(){
-            console.log(this.responseXML);
+            console.log(this.response);
         }
         xhr.open("GET", "../src/php/backend_test.php");
-        xhr.responseType = "document";
+        xhr.responseType = "json";
         xhr.send();
     }
 
