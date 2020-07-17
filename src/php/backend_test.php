@@ -1,5 +1,21 @@
 <?php
-    $ret = array('type' => 'html', 'tag' => 'h1', 'content' => 'This is a test');
+    $ret = '{
+                "type":"fragment",
+                "style":"",
+                "payload":{
+                    "element":{
+                        "type":"div",
+                        "class":"menu_class",
+                        "id":"menu_fragment",
+                        "children":[
+                            {
+                            "type":"p",
+                            "content":"Hello"
+                            }
+                        ]
+                    }
+                }
+            }';
 
-    echo json_encode($ret);
+    echo $ret;
 ?>
