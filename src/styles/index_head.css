@@ -1,0 +1,14 @@
+/* General styles for head index.html */
+
+.menu-head-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    border-bottom: 1px solid white;
+}
+
+.menu-head-desktop > .menu-entry {
+    padding-left: 8px;
+    padding-right: 8px;
+}
