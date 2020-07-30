@@ -2,11 +2,29 @@
 <html>
     <head>
         <title>Mindlimit Coaching</title>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../src/styles/index_main.css" type="text/css">
+        <link rel="stylesheet" href="../src/styles/index_head.css" type="text/css">
     </head>
     <body>
         <div content_area="head">
-
+            <div class="menu-head-desktop">
+                <div class="menu-entry">
+                    <p>Coaching</p>
+                </div>
+                <div class="menu-entry">
+                    <p>Angebote</p>
+                </div>
+                <div class="menu-entry">
+                    <p>Ihr Coach</p>
+                </div>
+                <div class="menu-entry">
+                    <p>Podcast</p>
+                </div>
+                <div class="menu-entry">
+                    <p>Kontakt</p>
+                </div>
+            </div>
         </div>
         <div content_area="main">
 
@@ -16,14 +34,15 @@
         </div>
     </body>
 
-    <!-- Additional files go here -->
-    <script type="text/javascript" src="../src/js/index_controller.js"></script>
+    <!-- Additional files go here 
+    <script type="text/javascript" src="../src/js/renderer.js"></script>
+    <script type="text/javascript" src="../src/js/index_controller.js"></script> -->
 
-     <!-- Invoke Controller-->
+     <!-- Invoke Controller
      <script>
         window.onload = function(){
             const IndexCont = new IndexController(true);
-            IndexCont.loadContent();
+            IndexCont.loadContent(); 
         }
-    </script>
+    </script> -->
 </html>

@@ -1,0 +1,7 @@
+/* General styles for index.html */
+
+html, body {
+    margin: 0px;
+    background: #515151;
+    color: #ffffff;
+}
